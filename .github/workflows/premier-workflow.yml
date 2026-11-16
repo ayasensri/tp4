@@ -1,17 +1,30 @@
+
 name: Mon premier workflow
 
+# Déclenchement du workflow
 on:
   push:
 
+# Définition des tâches
 jobs:
   premier-job:
     runs-on: ubuntu-latest
+
     steps:
       - name: Afficher un message
-        run: echo "Bonjour ! Mon premier GitHub Actions fonctionne."
+        run: echo "Bienvenue dans le cours DevOps"
 
       - name: Afficher la date
         run: date
 
       - name: Afficher le système
         run: uname -a
+
+      - name: Nom du projet
+        run: echo "Projet TP DevOps"
+
+      - name: Afficher mon nom
+        run: echo "Mon nom est Aya Sensri"
+
+      - name: Afficher la date d'execution
+        run: date

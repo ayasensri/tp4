@@ -21,6 +21,6 @@ jobs:
         run: uname -a
 
       - name: Nom du projet
-        run: echo "Projet TP DevOps"
+        run: echo "Projet TP devops"
 
      

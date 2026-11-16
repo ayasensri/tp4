@@ -20,7 +20,10 @@ jobs:
       - name: Afficher le système
         run: uname -a
 
-      - name: Nom du projet
-        run: echo "Projet TP devops"
+      - name:  affiche Mon nom
+        run: echo "NOM :aya \amgham"
+     
+      - name: Afficher la date d'execution
+        run: date
 
      
